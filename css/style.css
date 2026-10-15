@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header start */
+.header-home{
+    background-image: url(../images/download.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.header-home h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    line-height: 1.8;
+    padding:30px;
+     margin-top: 100px;
+    color: white;
+    background-color: #0f7b6484;
+    border-radius: 10%;
+    width: 350px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:767px){
+    .header-home{
+        background-position: right;
+    }
+    .header-home h2{
+        font-size: 24px;
+    }
+}
+
+/* header end */
+ 
+
+/* school home start */
+
+.School-home h2{
+    font-family: 'Delius', cursive;
+    text-decoration: underline 6px orange;
+    font-weight: 400;
+}
+.School-home h5{
+    font-family: 'Delius', cursive;
+    color: #0F7B64;
+    font-weight: 300;
+}
+
+/* school home end */
+
+
+/* the start of touch-home section */
+
+.touch-home{
+    background: url(../images/Path\ 62.png) , url(../images/i-love-my-job-so-much_329181-2178.png);
+    height: 750px ;
+    background-size: cover;
+    padding-top: 70px;
+}
+.touch-home img{
+    height: 150px;
+    padding-bottom: 6px ;
+}
+.touch-home h5{
+    color:#0f7b72
+}
+.touch-home p{
+    color: black;
+}
+
+@media (max-width:991px){
+    .touch-home{
+        height: fit-content;
+    }
+}
+/* the end of touch-home section */
+
+/* start of footer home */
+
+.footer-home{
+    background-color: #0F7B64;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-radius:150px 150px 0px 0px;
+}
+.footer-home h5{
+    color:#ec8c78;
+}
+.footer-home a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin-top: 10px;
+}
+
+/* End of footer home */
